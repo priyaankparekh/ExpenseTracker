@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-2wsn%u*c#ah=qh=)p=m+zxpcnlfl=lyeyx0=^ap@pm8$1@ksyi'
+SECRET_KEY = '******'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -58,7 +58,7 @@ ROOT_URLCONF = 'expensetracker.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\PRIYAANK\Desktop\ExpenseTracker\templates'],
+        'DIRS': [r'C:\Users\USername\ExpenseTracker\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -122,7 +122,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # STATICFILES_DIRS = os.path.join(BASE_DIR, 'expensetrackerwd/static')
-STATICFILES_DIRS = ['C:/Users/PRIYAANK/Desktop/ExpenseTracker/static']
+STATICFILES_DIRS = ['C:/Users/Username/ExpenseTracker/static']
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Default primary key field type
@@ -137,7 +137,7 @@ MESSAGE_TAGS = {
 # email stuff
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'pixxelzz16@gmail.com'
-DEFAULT_FROM_EMAIL = 'pixxelzz16@gmail.com'
+EMAIL_HOST_USER = '******'
+DEFAULT_FROM_EMAIL = '******'
 EMAIL_PORT = 587
-EMAIL_HOST_PASSWORD = 'PIX@160101'
+EMAIL_HOST_PASSWORD = '******'
